@@ -33,7 +33,7 @@ public class UserServiceTest {
         UserServiceImpl userService = new UserServiceImpl();
         
         // Test cases
-        System.out.println(userService.getPersonalizedWelcome("Alice")); // Output: Welcome, Alice!
-        System.out.println(userService.getPersonalizedWelcome(null));    // Output: Welcome, Guest!
+        System.out.println(userService.getPersonalizedWelcome("Alice")); 
+        System.out.println(userService.getPersonalizedWelcome(null));    
     }
 }
